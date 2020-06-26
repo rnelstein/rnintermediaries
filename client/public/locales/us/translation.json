@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "el0": "About us",
+    "el1": "What we stand for",
+    "el2": "Partners",
+    "el3": "Contact"
+  },
+  "index0": {
+    "title": "R&N: the place where partners and clients become our family",
+    "subtitle": "Giving talents an opportunity to become professional",
+    "buttonText": "Find out more"
+  },
+  "index1": {
+    "title": "About us",
+    "text": "R&N Intermediaries is a multidimensional company in the football industry. With multiple divisions, R&N Intermediaries offers a total concept in football with tailor made solutions in top level management and consultancy. R&N has a variety of partners which makes up for  40+ years of experience at our disposal. Therefore, we have one of the strongest networks worldwide of leading professionals, associations, clubs, coaches, players and excellent governmental relationships. R&N works with a limited group of partners worldwide with experience and expertise to create the best opportunities for all parties. With respect for the local language, the culture, the education and business ethics. \n\n The local languages which we speak include: Dutch, English, Surinamese, Spanish and Portuguese. With regards to culture, we are two South American gentlemen who remember where they’re from. Therefore, our main focus is on the South American football market, with special attention for talented football players in this region, but we're not excluding talent from any other continent. Because of our focus on certain countries in South America, we have found our niche in the market."
+  },
+  "index2": {
+    "title": "What we stand for",
+    "gridBlock1": {
+      "title": "Transparancy",
+      "subtitle": ""
+    },
+    "gridBlock2": {
+      "title": "Assertiveness",
+      "subtitle": ""
+    },
+    "gridBlock3": {
+      "title": "Loyalty",
+      "subtitle": ""
+    }
+  },
+  "index3": {
+    "title": "Partners",
+    "item1": {
+      "text": " “Working together with R&N Intermediaries is very pleasant. Communication always goes transparent, they have a broad network and are always ready to collaborate with you. Glad to have them as our partners.” ",
+      "name": "Voques International"
+    }
+  },
+  "index4": {
+    "title": "Contact"
+  }
+}

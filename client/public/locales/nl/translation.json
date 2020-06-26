@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "el0": "Over ons",
+    "el1": "Waar staan wij voor",
+    "el2": "Compagnons",
+    "el3": "Contact"
+  },
+  "index0": {
+    "title": "R&N: de plek waar partners en cliënten onze familie worden",
+    "subtitle": "Talenten de kans geven om professional te worden",
+    "buttonText": "Meer informatie"
+  },
+  "index1": {
+    "title": "Over ons",
+    "text": "R&N Intermediaries is een multidimensionale onderneming binnen de voetballerij. Met meerdere takken binnen het bedrijf, biedt R&N Intermediaries een compleet pakket binnen het voetbal met gepaste oplossingen op het gebied van top management en consultancy. R&N heeft een breed scala aan partners, die gezamenlijk 40+ jaar aan ervaring hebben binnen deze branche. Derhalve beschikken wij over een van de grootste netwerken wereldwijd bestaande uit professionals, associaties, clubs, coaches, spelers en uitstekende overheidsrelaties. R&N werkt met een beperkte groep van wereldwijde compagnons met ervaring en expertise, om zo de beste kansen te creëren voor alle partijen. Met daarin een groot respect voor de lokale talen, de cultuur, de educatie en bedrijfsethiek.\n\n De lokale talen die wij spreken bevatten: Nederlands, Engels, Surinaams, Spaans en Portugees. Met betrekking tot cultuur, wij zijn twee Zuid-Amerikaanse heren die herinneren waar zij vandaan komen. Hierdoor ligt onze focus op de Zuid-Amerikaanse voetbalmarkt, met daarin speciale aandacht voor getalenteerde spelers binnen deze regio, hoewel wij geen enkel talent van andere continenten uitsluiten. Vanwege onze focus op bepaalde landen in Zuid-Amerika, hebben wij ons gat in de markt gevonden."
+  },
+  "index2": {
+    "title": "Waar staan wij voor",
+    "gridBlock1": {
+      "title": "Transparancy",
+      "subtitle": ""
+    },
+    "gridBlock2": {
+      "title": "Assertiviteit",
+      "subtitle": ""
+    },
+    "gridBlock3": {
+      "title": "Loyaliteit",
+      "subtitle": ""
+    }
+  },
+  "index3": {
+    "title": "Compagnons",
+    "item1": {
+      "text": "“Samenwerken met R&N Intermediaries is erg aangenaam. De communicatie is altijd transparant, zij beschikken over een breed netwerk en staan altijd klaar om samen met jou te werken. Wij zijn blij met hen als onze partners.”",
+      "name": "Voques International"
+    }
+  },
+  "index4": {
+    "title": "Contact"
+  }
+}

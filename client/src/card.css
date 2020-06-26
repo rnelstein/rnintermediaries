@@ -1,0 +1,33 @@
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .team-member img {
+        width: 14rem;
+        height: 14rem;
+        border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+

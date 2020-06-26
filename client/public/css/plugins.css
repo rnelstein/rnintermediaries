@@ -1,0 +1,34 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Stonex - One Page Multipurpose Template
+    Description: One Page Multipurpose Template
+    Author: Chitrakoot Web
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("plugins/bootstrap.min.css");
+
+/* == animate Headline == */
+@import url("plugins/animate.css");
+
+/* == fontawesome icon font == */
+@import url("plugins/fontawesome-all.min.css");
+
+/* == magnific-popup == */
+@import url("plugins/magnific-popup.css");
+
+/* == owl.carousel == */
+@import url("plugins/owl.carousel.min.css");
+@import url("plugins/owl.theme.default.min.css");
+
+/* == helper classes == */
+@import url("plugins/helper.css");
+
+/* == vegas body slider == */
+@import url("plugins/vegas.css");
