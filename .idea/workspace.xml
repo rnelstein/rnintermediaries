@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676a4953-6b1e-48bd-b7a9-a4a77f868b17" name="Default Changelist" comment="" />
+    <list default="true" id="676a4953-6b1e-48bd-b7a9-a4a77f868b17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/locales" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,15 +44,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\Desktop\intermediaries\public\locales" />
-      <recent name="C:\Users\PC\Desktop\intermediaries\public\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Desktop\intermediaries\src\components" />
       <recent name="C:\Users\PC\Desktop\intermediaries\public\img" />
       <recent name="C:\Users\RNelstein\Desktop\intermediaries\public\img" />
       <recent name="C:\Users\RNelstein\Desktop\intermediaries\public\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\intermediaries" />
+      <recent name="C:\Users\PC\Desktop\intermediaries\public\locales" />
+      <recent name="C:\Users\PC\Desktop\intermediaries\public\img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -75,7 +78,7 @@
       <workItem from="1592942510618" duration="8688000" />
       <workItem from="1592989662682" duration="7716000" />
       <workItem from="1592998912073" duration="6068000" />
-      <workItem from="1593208009826" duration="2675000" />
+      <workItem from="1593208009826" duration="3044000" />
     </task>
     <servers />
   </component>
