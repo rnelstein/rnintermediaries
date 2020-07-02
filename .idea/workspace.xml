@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="676a4953-6b1e-48bd-b7a9-a4a77f868b17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/locales/es/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/locales/es/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/locales/nl/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/locales/nl/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/locales/us/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/locales/us/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Home.js" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +63,18 @@
       <recent name="C:\Users\RNelstein\Desktop\intermediaries\public\fonts" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -83,23 +100,25 @@
       <workItem from="1593208009826" duration="3044000" />
       <workItem from="1593211650137" duration="116000" />
       <workItem from="1593251813560" duration="1694000" />
+      <workItem from="1593697881900" duration="2724000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592850335806">

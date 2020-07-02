@@ -70,8 +70,6 @@ const Home = () => {
                                         <a className="btn btn-dark btn-social mx-2"
                                            href="mailto:rafael@R&NIntermediaries.com"><i
                                             className="fas fa-envelope"/></a>
-                                        <a className="btn btn-dark btn-social mx-2" href="#!"><i
-                                            className="fab fa-facebook-f"/></a>
                                         <a className="btn btn-dark btn-social mx-2"
                                            href="https://www.linkedin.com/in/rafa%C3%ABl-venetiaan-304224178/"><i
                                             className="fab fa-linkedin-in"/></a>
@@ -84,14 +82,17 @@ const Home = () => {
                                              src={process.env.PUBLIC_URL + "/img/nuel.jpg"} alt=""/>
                                         <h6 className="card-title text-white font-weight-bold">Nüel Weinchard
                                         </h6>
+
                                         <a className="btn btn-dark btn-social mx-2"
                                            href="mailto:rafael@R&NIntermediaries.com"><i
                                             className="fas fa-envelope"/></a>
-                                        <a className="btn btn-dark btn-social mx-2" href="#!"><i
-                                            className="fab fa-facebook-f"/></a>
                                         <a className="btn btn-dark btn-social mx-2"
                                            href="https://www.linkedin.com/in/n%C3%BCel-weinchard-1047827b/"><i
                                             className="fab fa-linkedin-in"/></a>
+
+                                        <a className="btn btn-dark btn-social mx-2"
+                                           href="https://www.instagram.com/nuelweinchard/"><i
+                                            className="fab fa-instagram"/></a>
                                     </div>
                                 </div>
 
