@@ -17,7 +17,7 @@ const Contact = (props) => {
 
     const onSubmit = async (formValues, dispatch) => {
         try {
-            await axios.post('http://localhost:5000/api/mail', formValues);
+            await axios.post('/api/mail', formValues);
 
             toast.success(t('index4.emailSuccess'), {
                 position: "bottom-right",
