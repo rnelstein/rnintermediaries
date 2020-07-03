@@ -2,26 +2,21 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const nodemailer = require('nodemailer');
+const sgMail = require('@sendgrid/mail')
+sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
 
-const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: process.env.NODEMAILER_EMAIL,
-        pass: process.env.NODEMAILER_PASSWORD
-    }
-});
 
-app.post('/api/mail', async (req, res, next) => {
+
+app.post('/api/mail', async (req, res) => {
     const {name, email, message} = req.body;
 
     let msg = {
-        from: process.env.NODEMAILER_EMAIL,
+        from: email,
         to: process.env.NODEMAILER_EMAIL,
         subject: 'ContactForm',
         html: `
@@ -41,13 +36,12 @@ app.post('/api/mail', async (req, res, next) => {
     };
 
 
-    transporter.sendMail(msg, function (error, info) {
-        if (error) {
-            res.send(error)
-        } else {
-            res.send(info.response);
-        }
-    })
+    try {
+        await sgMail.send(msg)
+        res.send("mail sendend")
+    } catch (e) {
+        res.send("email error")
+    }
 });
 
 if (process.env.NODE_ENV === 'production') {

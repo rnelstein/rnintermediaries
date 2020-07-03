@@ -46,7 +46,7 @@ const Header = () => {
                             <Link to="#" className="nav-link" data-scroll-nav="3">{t('nav.el2')}</Link>
                         </li>
                         <li className="nav-item" onClick={toggle}>
-                            <Link to="#" className="nav-link" data-scroll-nav="6">{t('nav.el3')}</Link>
+                            <Link to="#" className="nav-link" data-scroll-nav="4">{t('nav.el3')}</Link>
                         </li>
 
                         <li className="nav-item dropdown">
