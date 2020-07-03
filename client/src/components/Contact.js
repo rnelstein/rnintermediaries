@@ -1,17 +1,38 @@
 import React from 'react';
 import {reset, Field, reduxForm} from "redux-form";
 import axios from "axios"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import {useTranslation} from "react-i18next";
+
 
 
 
 const Contact = (props) => {
     const {handleSubmit, pristine, submitting} = props
+    const {t, i18n} = useTranslation();
+
+
+
 
     const onSubmit = async (formValues, dispatch) => {
-        console.log(formValues)
-        await axios.post('http://localhost:5000/api/mail', formValues);
+        try {
+            await axios.post('http://localhost:5000/api/mail', formValues);
 
-        dispatch(reset("contact"));
+            toast.success(t('index4.emailSuccess'), {
+                position: "bottom-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+
+            dispatch(reset("contact"));
+        }catch (e) {
+            console.log("message send error")
+        }
     };
 
     return (
@@ -21,6 +42,7 @@ const Contact = (props) => {
                 <div className="col-md-6">
                     <Field component="input" type="text" name="name" placeholder="Your Name:" required/>
                 </div>
+
 
                 <div className="col-md-6">
                     <Field component="input" type="email" name="email" placeholder="Email:" required/>
@@ -32,6 +54,8 @@ const Contact = (props) => {
                     <button type="submit" disabled={pristine || submitting} className="btn1">Send Message</button>
                 </div>
             </div>
+            <ToastContainer
+            />
         </form>
     );
 };

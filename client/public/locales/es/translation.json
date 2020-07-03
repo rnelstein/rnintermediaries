@@ -37,6 +37,7 @@
     }
   },
   "index4": {
-    "title": "Contacto"
+    "title": "Contacto",
+    "emailSuccess":  "Mensaje enviado!"
   }
 }

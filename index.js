@@ -1,38 +1,53 @@
-const express = require('express');
 require('dotenv').config();
+const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const sgMail = require('@sendgrid/mail');
-//sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+const nodemailer = require('nodemailer');
 
 const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
 
-app.post('/api/mail', async (req, res) => {
-console.log(req.body)
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.NODEMAILER_EMAIL,
+        pass: process.env.NODEMAILER_PASSWORD
+    }
+});
+
+app.post('/api/mail', async (req, res, next) => {
     const {name, email, message} = req.body;
 
-   /*
+    let msg = {
+        from: process.env.NODEMAILER_EMAIL,
+        to: process.env.NODEMAILER_EMAIL,
+        subject: 'ContactForm',
+        html: `
+        <!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 
-    try {
 
-        let message = {
-            from: name,
-            to: "info@rnintermediaries.com",
-            subject: `Contactform`,
-            html: req.body
-        };
+<p><h1>Message from:</h1> ${name}, ${email}</p>
+<p>${message}</p>
+
+</body>
+</html>`
+
+    };
 
 
-        await sgMail.send(message);
-        res.send({response: 'Mail sended'})
-    } catch (e) {
-        res.status(422).send(e)
-    }
-
-    */
+    transporter.sendMail(msg, function (error, info) {
+        if (error) {
+            res.send(error)
+        } else {
+            res.send(info.response);
+        }
+    })
 });
 
 if (process.env.NODE_ENV === 'production') {
