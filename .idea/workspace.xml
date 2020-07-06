@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="676a4953-6b1e-48bd-b7a9-a4a77f868b17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,8 @@
       <workItem from="1593697881900" duration="2724000" />
       <workItem from="1593767449678" duration="4368000" />
       <workItem from="1593777741337" duration="4575000" />
-      <workItem from="1593804516376" duration="3038000" />
+      <workItem from="1593804516376" duration="3534000" />
+      <workItem from="1594029126088" duration="1567000" />
     </task>
     <servers />
   </component>
@@ -189,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="523" y="117" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592841402608" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593805476212">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594030412418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593805476212" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594030412418" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593780007844" />
   </component>
 </project>

@@ -38,6 +38,7 @@
   },
   "index4": {
     "title": "Contact",
-    "emailSuccess":  "Message sended!"
+    "emailSuccess":  "Message sended!",
+    "emailError":  "message send error, try again later!"
   }
 }

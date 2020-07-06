@@ -38,6 +38,7 @@
   },
   "index4": {
     "title": "Contact",
-    "emailSuccess":  "Bericht verstuurd!"
+    "emailSuccess":  "Bericht verstuurd!",
+    "emailError": "fout bij verzenden van bericht, probeer het later opnieuw!"
   }
 }

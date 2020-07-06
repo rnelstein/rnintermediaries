@@ -10,13 +10,13 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-
+console.log(process.env.NODEMAILER_EMAIL)
 
 app.post('/api/mail', async (req, res) => {
     const {name, email, message} = req.body;
 
     let msg = {
-        from: email,
+        from:  process.env.NODEMAILER_EMAIL,
         to: process.env.NODEMAILER_EMAIL,
         subject: 'ContactForm',
         html: `
@@ -37,7 +37,7 @@ app.post('/api/mail', async (req, res) => {
 
 
     try {
-        await sgMail.send(msg)
+       const res =  await sgMail.send(msg)
         res.send("mail sendend")
     } catch (e) {
         res.send("email error")

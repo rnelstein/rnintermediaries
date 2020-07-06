@@ -1,38 +1,47 @@
 import React from 'react';
 import {reset, Field, reduxForm} from "redux-form";
 import axios from "axios"
-import { ToastContainer, toast } from 'react-toastify';
+import {ToastContainer, toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {useTranslation} from "react-i18next";
 
 
-
-
 const Contact = (props) => {
     const {handleSubmit, pristine, submitting} = props
-    const {t, i18n} = useTranslation();
-
-
+    const {t} = useTranslation();
 
 
     const onSubmit = async (formValues, dispatch) => {
-        try {
-            await axios.post('/api/mail', formValues);
 
-            toast.success(t('index4.emailSuccess'), {
-                position: "bottom-right",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
+
+        axios.post('/api/mail', formValues)
+            .then(function (response) {
+
+                toast.success(t('index4.emailSuccess'), {
+                    position: "bottom-right",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+                dispatch(reset("contact"));
+            })
+            .catch(function (error) {
+
+                toast.warn(t('index4.emailError'), {
+                    position: "bottom-right",
+                    autoClose: 2000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                });
             });
 
-            dispatch(reset("contact"));
-        }catch (e) {
-            console.log("message send error")
-        }
+
     };
 
     return (
