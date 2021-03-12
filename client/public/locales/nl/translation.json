@@ -17,7 +17,7 @@
   "index2": {
     "title": "Waar staan wij voor",
     "gridBlock1": {
-      "title": "Transparancy",
+      "title": "Transparantie",
       "subtitle": ""
     },
     "gridBlock2": {
@@ -33,10 +33,12 @@
     "title": "Compagnons",
     "item1": {
       "text": "“Samenwerken met R&N Intermediaries is erg aangenaam. De communicatie is altijd transparant, zij beschikken over een breed netwerk en staan altijd klaar om samen met jou te werken. Wij zijn blij met hen als onze partners.”",
-      "name": "Voques International"
+      "name": " Voques International"
     }
   },
   "index4": {
-    "title": "Contact"
+    "title": "Contact",
+    "emailSuccess":  "Bericht verstuurd!",
+    "emailError": "fout bij verzenden van bericht, probeer het later opnieuw!"
   }
 }

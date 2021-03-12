@@ -47,7 +47,7 @@ const SideMenu = () => {
                 <div className="side-footer width-100">
                     <ul className="profile-list">
                         <li>
-                            <a href="mailto:info@R&NIntermediaries.com"
+                            <a href="mailto:info@rnintermediaries.com"
                                className="text-white">info@rnintermediaries.com</a>
                         </li>
 

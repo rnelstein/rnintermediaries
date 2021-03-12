@@ -33,10 +33,12 @@
     "title": "Partners",
     "item1": {
       "text": " “Working together with R&N Intermediaries is very pleasant. Communication always goes transparent, they have a broad network and are always ready to collaborate with you. Glad to have them as our partners.” ",
-      "name": "Voques International"
+      "name": " Voques International"
     }
   },
   "index4": {
-    "title": "Contact"
+    "title": "Contact",
+    "emailSuccess":  "Message sended!",
+    "emailError":  "message send error, try again later!"
   }
 }
